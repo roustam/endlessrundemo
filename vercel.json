@@ -1,31 +1,27 @@
 {
 "headers": [
-    {
+  {
     "source": "/Build/SafariOptBuild1.data.unityweb",
-    "headers" : [
-      {
+    "headers":[{
         "key" : "Content-Encoding",
         "value" : "gzip"
-      },
-      {
-      "source": "/Build/SafariOptBuild1.wasm.unityweb",
-      "headers" : [
-          {
+    }]
+  },
+  {
+    "source": "/Build/SafariOptBuild1.framework.js.unityweb",
+    "headers":[
+        {
             "key" : "Content-Type",
-            "value" : "application/wasm"
-          }
-        ]
-      },
-      {
-        "source": "/Build/SafariOptBuild1.framework.js.unityweb",
-        "headers" : [
-            {
-              "key" : "Content-Type",
-              "value" : "application/wasm"
-            }
-          ]
+            "value" : "gzip"
         }
-    ]
+      ]
+  },
+  {
+    "source": "/Build/SafariOptBuild1.wasm.unityweb",
+    "headers":[{
+          "key" : "Content-Type",
+          "value" : "application/wasm"
+    }]
   }
   ]
 }
