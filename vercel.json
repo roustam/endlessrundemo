@@ -7,15 +7,6 @@
         "value" : "gzip"
     }]
   },
-  // {
-  //   "source": "/Build/SafariOptBuild1.framework.js.unityweb",
-  //   "headers":[
-  //       {
-  //           "key" : "Content-Type",
-  //           "value" : "gzip"
-  //       }
-  //     ]
-  // },
   {
     "source": "/Build/SafariOptBuild1.wasm.unityweb",
     "headers":[{
