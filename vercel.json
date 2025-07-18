@@ -24,11 +24,5 @@
         }
       ]
     }
-  ],
-  "rewrites": [
-    { 
-      "source": "/(?!Build/).*", 
-      "destination": "/index.html" 
-    }
   ]
 }
