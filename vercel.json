@@ -26,6 +26,9 @@
     }
   ],
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    { 
+      "source": "/(?!Build/).*", 
+      "destination": "/index.html" 
+    }
   ]
 }
