@@ -23,6 +23,15 @@
           "value": "application/octet-stream"
         }
       ]
+    },
+    {
+      "source": "/(.*)\\.wasm\\.unityweb",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/wasm"
+        }
+      ]
     }
   ]
 }
