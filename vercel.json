@@ -1,4 +1,6 @@
 {
+  "version": 2,
+  "public": true,
   "headers": [
     {
       "source": "/Build/(.*)",
@@ -22,5 +24,8 @@
         }
       ]
     }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
